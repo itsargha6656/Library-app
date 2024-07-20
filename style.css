@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    font-size: 50px;
+  }
+  
+  .user-name label {
+    display: block;
+    width: 100px;
+    height: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+  
+  }
+  
+  .user-name input {
+    display: block;
+    width: 20%;
+    height: 30px;
+  
+  }
+  
+  .book-name label {
+    display: block;
+    width: 100px;
+    height: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+  }
+  
+  .book-name input {
+    display: block;
+    width: 20%;
+    height: 30px;
+  }
+  
+  .book-author label {
+    display: block;
+    width: 100px;
+    height: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+  }
+  
+  .book-author input {
+    display: block;
+    width: 20%;
+    height: 30px;
+  }
+  
+  .book-type,
+  .bookclass {
+    display: block;
+  
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+  }
+  
+  div.btn button {
+    display: block;
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+  
+  
+  }
+  
+  .yb-heading {
+    display: block;
+    width;
+    100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+  }
+  
+  .yb-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  
+  }
+  
+  .box {
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+    background - color: lightblue;
+    border: 1px solid #000;
+    display: inline - block;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
